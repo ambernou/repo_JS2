@@ -1,0 +1,41 @@
+{
+    "amount": 108,
+    "countGoods": 2,
+    "contents": [
+        {
+            "id_product": 2,
+            "product_name": "PANTS",
+            "img_product": "img/fetured_item2.png",
+            "price": 45,
+            "quantity": 3
+        },
+        {
+            "id_product": 6,
+            "product_name": "BLOUSE",
+            "img_product": "img/fetured_item6.png",
+            "price": 63,
+            "quantity": 1
+        },
+        {
+            "quantity": 1,
+            "id_product": 1,
+            "product_name": "JACKET",
+            "img_product": "img/fetured_item1.png",
+            "price": 80
+        },
+        {
+            "quantity": 1,
+            "id_product": 3,
+            "product_name": "HAT",
+            "img_product": "img/fetured_item3.png",
+            "price": 20
+        },
+        {
+            "quantity": 1,
+            "id_product": 4,
+            "product_name": "T-SHIRT",
+            "img_product": "img/fetured_item4.png",
+            "price": 35
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f166edb-d06e-4b30-8d80-a71c65c6d089" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="325" />
+    <option name="y" value="23" />
+    <option name="width" value="1355" />
+    <option name="height" value="946" />
+  </component>
+  <component name="ProjectId" id="1coxnr5PLb9xAbRNVnR5O43ifEL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../OSPanel/domains/demo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f166edb-d06e-4b30-8d80-a71c65c6d089" name="Default Changelist" comment="" />
+      <created>1584729174062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584729174062</updated>
+      <workItem from="1584729177138" duration="1287000" />
+      <workItem from="1584981709781" duration="1272000" />
+      <workItem from="1585065821551" duration="598000" />
+      <workItem from="1585071744131" duration="682000" />
+      <workItem from="1585325919023" duration="1207000" />
+      <workItem from="1585415085685" duration="599000" />
+      <workItem from="1591208917975" duration="2384000" />
+      <workItem from="1596306245984" duration="1560000" />
+      <workItem from="1598725798286" duration="835000" />
+      <workItem from="1598774604255" duration="596000" />
+      <workItem from="1598893219493" duration="1202000" />
+      <workItem from="1598978434285" duration="599000" />
+      <workItem from="1599067410286" duration="686000" />
+      <workItem from="1599151573328" duration="627000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="883" y="220" key="FileChooserDialogImpl" timestamp="1599157035239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="883" y="220" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599157035239" />
+  </component>
+</project>
