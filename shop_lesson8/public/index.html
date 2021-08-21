@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Main page</title>
+    <script src="https://kit.fontawesome.com/a067714524.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="app">
+    <header class="header">
+        <div class="container header_box">
+            <div class="header_left">
+                <a href="index.html"><img src="img/logo.svg" alt="logo" class="logo_style"></a>
+                <!-- <img src="img/search.svg" alt="search" class="link_transform"> -->
+                <filter-el></filter-el>
+            </div>
+            <nav class="header_right">
+                <ul class="header_right_menu">
+                    <li class="menu_item"><a href="#"><img src="img/menu.svg" alt="menu" class="link_transform"></a>
+                        <div class="menu_box">
+                            <h2 class="main_text menu-heading">MENU</h2>
+                            <div class="menu_section">
+                                <h2 class="main_text menu_section_heading pink_text">MAN</h2>
+                                <a class="main_text menu_link" href="catalog.html">Accessories</a>
+                                <a class="main_text menu_link" href="catalog.html">Bags</a>
+                                <a class="main_text menu_link" href="catalog.html">Denim</a>
+                                <a class="main_text menu_link" href="catalog.html">T-Shirts</a>
+                            </div>
+                            <div class="menu_section">
+                                <h2 class="main_text menu_section_heading pink_text">WOMAN</h2>
+                                <a class="main_text menu_link" href="catalog.html">Accessories</a>
+                                <a class="main_text menu_link" href="catalog.html">Jackets & Coats</a>
+                                <a class="main_text menu_link" href="catalog.html">Polos</a>
+                                <a class="main_text menu_link" href="catalog.html">T-Shirts</a>
+                                <a class="main_text menu_link" href="catalog.html">Shirts</a>
+                            </div>
+                            <div class="menu_section">
+                                <h2 class="main_text menu_section_heading pink_text">KIDS</h2>
+                                <a class="main_text menu_link" href="catalog.html">Accessories</a>
+                                <a class="main_text menu_link" href="catalog.html">Jackets & Coats</a>
+                                <a class="main_text menu_link" href="catalog.html">Polos</a>
+                                <a class="main_text menu_link" href="catalog.html">T-Shirts</a>
+                                <a class="main_text menu_link" href="catalog.html">Shirts</a>
+                                <a class="main_text menu_link" href="catalog.html">Bags</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu_item"><a href="registration.html"><img src="img/personal-cab.svg" alt="personal-cab" class="link_transform"></a></li>
+                    <!-- <li><a href="cart.html"><img src="img/cart.svg" alt="cart" class="link_transform"></a></li> -->
+                    <li><cart ref="cart"></cart></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="top">
+        <div class="container top_box">
+            <img src="img/shop_main_photo.png" alt="shop-main-img">
+            
+            <div class="top_heading">
+                <div class="pink_box"></div>
+                <div class="top_heading_box">
+                    <h1 class="top_heading_max">THE BRAND</h1>
+                    <h1 class="top_heading_mini">OF LUXERIOUS <span class="pink_text">FASHION</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="offer_box">
+                <div class="offer_box_mini">
+                    <a href="catalog.html" class="pic_link">
+                        <img src="img/offer_item1.png" alt="offer_item" class="offer_pic">
+                        <div class="offer_box_item">
+                            <p class="offer_heading_mini">30% OFF</p>
+                            <p class="pink_text offer_heading_max">FOR WOMAN</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="offer_box_mini">
+                    <a href="catalog.html" class="pic_link">
+                        <img src="img/offer_item2.png" alt="offer_item" class="offer_pic">
+                        <div class="offer_box_item">
+                            <p class="offer_heading_mini">30% OFF</p>
+                            <p class="pink_text offer_heading_max">FOR MAN</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="offer_box_mini">
+                    <a href="catalog.html" class="pic_link">
+                        <img src="img/offer_item3.png" alt="offer_item" class="offer_pic">
+                        <div class="offer_box_item">
+                            <p class="offer_heading_mini">30% OFF</p>
+                            <p class="pink_text offer_heading_max">FOR KIDS</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="offer_box_max">
+                <a href="catalog.html" class="pic_link">
+                    <img src="img/offer_item_big.png" alt="offer_item" class="offer_pic">
+                    <div class="offer_box_item_max">
+                        <h3 class="offer_heading_mini">LUXIROUS & TRENDY</h3>
+                        <h2 class="pink_text offer_heading_max">ACCESORIES</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+    <div class="container">
+        <h2 class="fetured_heading">Fetured Items</h2>
+        <p class="fetured_text">Shop for items based on what we featured in this week</p>
+    </div>
+
+    <error v-show="error"></error>
+    <products ref="products"></products>
+    <!-- <div class="container fetured_box">
+        <div class="fetured_item">
+            <a href="product.html" class="fetured_item_link">
+                <img src="img/fetured_item1.png" alt="fetured_item" class="fetured_item_pic">
+                <div class="fetured_item_info">
+                    <h3 class="fetured_item_heading">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured_item_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="pink_text fetured_item_price">$52.00</p>
+                </div>
+            </a>
+            <div class="add_box">
+                <a href="#" class="add_link">
+                    <img src="img/small_cart.png" alt="cart">
+                    <p class="main_text add_text">Add to Cart</p>
+                </a>
+            </div>
+        </div>
+        <div class="fetured_item">
+            <a href="product.html" class="fetured_item_link">
+                <img src="img/fetured_item2.png" alt="fetured_item" class="fetured_item_pic">
+                <div class="fetured_item_info">
+                    <h3 class="fetured_item_heading">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured_item_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="pink_text fetured_item_price">$52.00</p>
+                </div>
+            </a>
+            <div class="add_box">
+                <a href="#" class="add_link">
+                    <img src="img/small_cart.png" alt="cart">
+                    <p class="main_text add_text">Add to Cart</p>
+                </a>
+            </div>
+        </div>
+        <div class="fetured_item">
+            <a href="product.html" class="fetured_item_link">
+                <img src="img/fetured_item3.png" alt="fetured_item" class="fetured_item_pic">
+                <div class="fetured_item_info">
+                    <h3 class="fetured_item_heading">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured_item_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="pink_text fetured_item_price">$52.00</p>
+                </div>
+            </a>
+            <div class="add_box">
+                <a href="#" class="add_link">
+                    <img src="img/small_cart.png" alt="cart">
+                    <p class="main_text add_text">Add to Cart</p>
+                </a>
+            </div>
+        </div>
+        <div class="fetured_item">
+            <a href="product.html" class="fetured_item_link">
+                <img src="img/fetured_item4.png" alt="fetured_item" class="fetured_item_pic">
+                <div class="fetured_item_info">
+                    <h3 class="fetured_item_heading">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured_item_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="pink_text fetured_item_price">$52.00</p>
+                </div>
+            </a>
+            <div class="add_box">
+                <a href="#" class="add_link">
+                    <img src="img/small_cart.png" alt="cart">
+                    <p class="main_text add_text">Add to Cart</p>
+                </a>
+            </div>
+        </div>
+        <div class="fetured_item">
+            <a href="product.html" class="fetured_item_link">
+                <img src="img/fetured_item5.png" alt="fetured_item" class="fetured_item_pic">
+                <div class="fetured_item_info">
+                    <h3 class="fetured_item_heading">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured_item_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="pink_text fetured_item_price">$52.00</p>
+                </div>
+            </a>
+            <div class="add_box">
+                <a href="#" class="add_link">
+                    <img src="img/small_cart.png" alt="cart">
+                    <p class="main_text add_text">Add to Cart</p>
+                </a>
+            </div>
+        </div>
+        <div class="fetured_item">
+            <a href="product.html" class="fetured_item_link">
+                <img src="img/fetured_item6.png" alt="fetured_item" class="fetured_item_pic">
+                <div class="fetured_item_info">
+                    <h3 class="fetured_item_heading">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured_item_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="pink_text fetured_item_price">$52.00</p>
+                </div>
+            </a>
+            <div class="add_box">
+                <a href="#" class="add_link">
+                    <img src="img/small_cart.png" alt="cart">
+                    <p class="main_text add_text">Add to Cart</p>
+                </a>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container button_product_box">
+        <a href="catalog.html" class="button_product">Browse All Product</a>
+    </div>
+    </section>
+
+    <section class="shop_info">
+        <div class="container shop_info_box">
+            <article>
+                <a href="cart.html" class="shop_info_item">
+                    <img src="img/shop_info1.svg" alt="shop_info" class="shop_info_pic">
+                <h3 class="shop_info_heading">Free Delivery</h3>
+                <p class="shop_info_text">Worldwide delivery on all. Authorit tively morph next&#8209;generation innov tion with extensive models.</p>
+                </a>
+            </article>
+            <article>
+                <a href="cart.html" class="shop_info_item">
+                    <img src="img/shop_info2.png" alt="shop_info" class="shop_info_pic">
+                <h3 class="shop_info_heading">Sales & discounts</h3>
+                <p class="shop_info_text">Worldwide delivery on all. Authorit tively morph next&#8209;generation innov tion with extensive models.</p>
+                </a>
+            </article> 
+            <article>
+                <a href="cart.html" class="shop_info_item">
+                    <img src="img/shop_info3.png" alt="shop_info" class="shop_info_pic">
+                <h3 class="shop_info_heading">Quality assurance</h3>
+                <p class="shop_info_text">Worldwide delivery on all. Authorit tively morph next&#8209;generation innov tion with extensive models.</p>
+                </a>
+            </article>
+        </div>
+     </section>
+
+    <section class="subscribe_info">
+        <div class="container subscribe_info_box">
+            <figure class="quote_box">
+                <img src="img/subscribe_photo.png" alt="photo" class="shop_info_pic">
+                <figcaption class="quote_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span class="italic_text">a pulvinar purus condimentum</span>“</figcaption>
+            </figure>
+            <div class="subscribe_box">
+                <h3 class="subscribe_heading">SUBSCRIBE</h3>
+                <p class="subscribe_text">FOR OUR NEWLETTER AND PROMOTION</p>
+                <form action="#" class="subscribe_form">
+                    <input type="email" placeholder="Enter Your Email" class="email_text">
+                    <button type="submit" class="button_text">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+        
+    <footer class="footer">
+        <div class="container footer_box">
+            <p class="footer_copy_text">© 2021  Brand  All Rights Reserved.</p>
+            <div class="footer_iconbox">
+                <a href="#" class="pic_link icon_link">
+                    <div class="icon">
+                        <i class="fab fa-facebook-f icon_pic"></i>
+                    </div>
+                </a>
+                <a href="#" class="pic_link icon_link">
+                    <div class="icon">
+                        <i class="fab fa-instagram icon_pic"></i>
+                    </div>
+                </a>
+                <a href="#" class="pic_link icon_link">
+                    <div class="icon">
+                        <i class="fab fa-pinterest-p icon_pic"></i>
+                    </div>
+                </a>
+                <a href="#" class="pic_link icon_link">
+                    <div class="icon">
+                        <i class="fab fa-twitter icon_pic"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+            <script src="js/ProductComponent.js"></script>
+            <script src="js/CartComponent.js"></script>
+            <script src="js/FilterComp.js"></script>
+            <script src="js/ErrorComp.js"></script>
+            <script src="js/main.js"></script>
+</body>
+</html>
