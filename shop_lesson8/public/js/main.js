@@ -55,7 +55,20 @@ const app = new Vue({
                     this.$refs.error.text = error;
                 })
         },
-
+        delJson(url, data) {
+            return fetch(url, {
+                    method: 'DELETE',
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(data)
+                })
+                .then(result => result.json())
+                .catch(error => {
+                    // console.log(error)
+                    this.$refs.error.text = error;
+                })
+        },
 
     },
     mounted(){

@@ -1385,7 +1385,7 @@ body {
   margin-left: 20px;
 }
 
-.cart-button {
+.cart-button-pos {
   position: relative;
 }
 
@@ -1408,8 +1408,8 @@ body {
 
 .cart-block {
   position: absolute;
-  top: 25px;
-  right: 20px;
+  top: 35px;
+  right: 25px;
   width: 300px;
   z-index: 100;
   background-color: white;
@@ -1449,7 +1449,7 @@ body {
   outline: none;
 }
 
-.search_button {
+.cart_button {
   background-color: #222222;
   border: none;
 }

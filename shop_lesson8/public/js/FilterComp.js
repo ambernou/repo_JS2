@@ -6,7 +6,7 @@ Vue.component('filter-el', {
     },
     template: `<form action="#" @submit.prevent="$parent.$refs.products.filter(userSearch)">
                 <input type="text" placeholder="search" v-model="userSearch" class="search_field">
-                <button type="submit" class="search_button">
+                <button type="submit" class="cart_button">
                     <img src="../img/search.svg" alt="search" class="link_transform">
                 </button>
             </form>`
